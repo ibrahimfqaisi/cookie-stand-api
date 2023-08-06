@@ -10,6 +10,7 @@ from .serializers import Cookie_standSerializer
 class Cookie_standList(ListCreateAPIView):
     queryset = Cookie_stand.objects.all()
     serializer_class = Cookie_standSerializer
+    
 
 
 class Cookie_standDetail(RetrieveUpdateDestroyAPIView):
